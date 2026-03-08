@@ -1,0 +1,11 @@
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/bin/Debug/net10.0/TodoApi.Domain.deps.json
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/bin/Debug/net10.0/TodoApi.Domain.dll
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/bin/Debug/net10.0/TodoApi.Domain.pdb
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/TodoApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/TodoApi.Domain.AssemblyInfoInputs.cache
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/TodoApi.Domain.AssemblyInfo.cs
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/TodoApi.Domain.csproj.CoreCompileInputs.cache
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/TodoApi.Domain.dll
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/refint/TodoApi.Domain.dll
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/TodoApi.Domain.pdb
+/home/leonardo-silva/Cursos/todo-api/src/TodoApi.Domain/obj/Debug/net10.0/ref/TodoApi.Domain.dll
