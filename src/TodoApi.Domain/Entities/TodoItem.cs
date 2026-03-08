@@ -19,4 +19,13 @@ public class TodoItem
     {
         IsDone = true;
     }
+
+    public void Update(string? title, bool? isDone)
+    {
+        if (title is not null)
+            Title = title;
+
+        if (isDone is not null)
+            IsDone = isDone.Value;
+    }
 }

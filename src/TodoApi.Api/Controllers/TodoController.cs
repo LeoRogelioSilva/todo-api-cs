@@ -39,4 +39,15 @@ public class TodoController : ControllerBase
         var created = await _todoService.CreateAsync(request);
         return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
     }
+
+    [HttpPatch("{id:guid}")]
+    public async Task<ActionResult<TodoResponse>> Update(Guid id, [FromBody] UpdateTodoRequest request)
+    {
+        var updated = await _todoService.UpdateAsync(id, request);
+
+        if (updated is null)
+            return NotFound();
+
+        return Ok(updated);
+    }
 }

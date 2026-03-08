@@ -23,4 +23,17 @@ public class InMemoryTodoRepository : ITodoRepository
         _items.Add(todo);
         return Task.CompletedTask;
     }
+
+    public Task<bool> UpdateAsync(TodoItem todo)
+    {
+        var existingItem = _items.FirstOrDefault(x => x.Id == todo.Id);
+
+        if (existingItem is null)
+            return Task.FromResult(false);
+
+        var index = _items.IndexOf(existingItem);
+        _items[index] = todo;
+
+        return Task.FromResult(true);
+    }
 }

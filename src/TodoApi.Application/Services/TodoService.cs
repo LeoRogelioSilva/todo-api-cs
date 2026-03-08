@@ -36,6 +36,20 @@ public class TodoService : ITodoService
         return MapToResponse(todo);
     }
 
+    public async Task<TodoResponse?> UpdateAsync(Guid id, UpdateTodoRequest request)
+    {
+        var item = await _todoRepository.GetByIdAsync(id);
+
+        if (item is null)
+            return null;
+
+        item.Update(request.Title, request.IsDone);
+
+        await _todoRepository.UpdateAsync(item);
+
+        return MapToResponse(item);
+    }
+
     private static TodoResponse MapToResponse(TodoItem item)
     {
         return new TodoResponse
